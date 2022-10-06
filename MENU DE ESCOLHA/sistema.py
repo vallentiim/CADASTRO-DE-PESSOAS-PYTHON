@@ -1,6 +1,6 @@
 from modulos import arquivo, interface
 
-arq= 'pessoas'
+arq= 'cadastros'
 if not arquivo.arquivoEXISTE(arq):
     arquivo.criarARQUIVO(arq)
 
